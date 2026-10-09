@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="李荣浩的个人网站 - 前端开发工程师，专注于构建简洁优雅的 Web 应用" />
+  <title>李荣浩 · 个人简介</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- 导航 -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="nav-logo">李荣浩<span>.</span></a>
+      <button class="nav-toggle" aria-label="打开菜单" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">简介</a></li>
+        <li><a href="portfolio.html">作品集</a></li>
+        <li><a href="#contact">联系方式</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero container">
+      <span class="hero-badge">👋 你好，我是李荣浩</span>
+      <h1>热爱编码的<span class="accent">前端开发工程师</span><br />坐标杭州</h1>
+      <p>专注于构建简洁、优雅、高性能的 Web 应用。相信好的产品源于对细节的打磨，也源于对用户需求的真诚理解。</p>
+      <div class="hero-actions">
+        <a href="portfolio.html" class="btn btn-primary">查看我的作品 →</a>
+        <a href="#contact" class="btn btn-ghost">与我联系</a>
+      </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">About Me</span>
+          <h2>关于我</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <h3>用代码把想法变成现实</h3>
+            <p>我是一名前端开发工程师，有多年 Web 开发经验，熟悉从需求分析、原型设计到开发上线的完整流程。平时喜欢研究交互体验和工程化实践，也乐于折腾新工具、新技术。</p>
+            <p>工作之外，我喜欢摄影和骑行——它们教会我一件事：好的作品，往往是耐心等待和精确时机的结果。写代码也一样。</p>
+          </div>
+          <div class="about-facts reveal">
+            <ul>
+              <li><span class="label">姓名</span><span class="value">李荣浩</span></li>
+              <li><span class="label">坐标</span><span class="value">浙江 · 杭州</span></li>
+              <li><span class="label">职业</span><span class="value">前端开发工程师</span></li>
+              <li><span class="label">经验</span><span class="value">5+ 年 Web 开发</span></li>
+              <li><span class="label">状态</span><span class="value">开放合作与交流</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 技能 -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Skills</span>
+          <h2>技能背景</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="icon">🎨</div>
+            <h3>前端开发</h3>
+            <p>构建现代、响应式、可访问性友好的用户界面</p>
+            <div class="tag-list">
+              <span class="tag">HTML / CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Vue</span>
+              <span class="tag">React</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="icon">⚙️</div>
+            <h3>后端与数据</h3>
+            <p>搭建稳定的服务端接口与数据处理流程</p>
+            <div class="tag-list">
+              <span class="tag">Node.js</span>
+              <span class="tag">Python</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">RESTful API</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="icon">🛠️</div>
+            <h3>工程与协作</h3>
+            <p>用工程化手段保障交付质量与团队效率</p>
+            <div class="tag-list">
+              <span class="tag">Git</span>
+              <span class="tag">Vite</span>
+              <span class="tag">Docker</span>
+              <span class="tag">CI / CD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Contact</span>
+          <h2>联系方式</h2>
+        </div>
+        <div class="contact-grid">
+          <a href="mailto:hello@example.com" class="contact-card reveal">
+            <div class="icon">✉️</div>
+            <h3>邮箱</h3>
+            <p>hello@example.com</p>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noopener" class="contact-card reveal">
+            <div class="icon">💻</div>
+            <h3>GitHub</h3>
+            <p>github.com/yourname</p>
+          </a>
+          <div class="contact-card reveal">
+            <div class="icon">💬</div>
+            <h3>微信</h3>
+            <p>扫码或搜索：your-wechat-id</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> 李荣浩 · 用 ❤️ 与代码构建</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

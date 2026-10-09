@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="李荣浩的个人作品集 - 精选项目作品展示" />
+  <title>作品集 · 李荣浩</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- 导航 -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="nav-logo">李荣浩<span>.</span></a>
+      <button class="nav-toggle" aria-label="打开菜单" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">简介</a></li>
+        <li><a href="portfolio.html" class="active">作品集</a></li>
+        <li><a href="index.html#contact">联系方式</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- 页头 -->
+    <section class="page-hero container">
+      <h1>作品集</h1>
+      <p>每一个项目都是一次从想法到落地的完整旅程，以下是其中的精选作品。</p>
+    </section>
+
+    <!-- 作品列表 -->
+    <section class="container">
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-thumb">
+            <img src="assets/Modern_analytics_dashboard_UI__2026-10-05T04-27-32.png" alt="星图数据可视化平台项目预览图" loading="lazy" />
+          </div>
+          <div class="project-body">
+            <h3>星图 · 数据可视化平台</h3>
+            <p>面向运营团队的可视化分析平台，支持多数据源接入、拖拽式图表搭建与实时数据大屏，帮助业务方将报表制作时间从数小时缩短到几分钟。</p>
+            <div class="tag-list">
+              <span class="tag">Vue 3</span>
+              <span class="tag">ECharts</span>
+              <span class="tag">WebSocket</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb">
+            <img src="assets/Mobile_weather_app_UI_design___2026-10-05T04-27-34.png" alt="晴雨天气 App 项目预览图" loading="lazy" />
+          </div>
+          <div class="project-body">
+            <h3>晴雨 · 天气 App</h3>
+            <p>一款主打「轻量与优雅」的跨端天气应用，采用定位 + 手动城市管理双模式，提供逐小时预报、空气质量与生活指数提醒，界面动效随天气实时变化。</p>
+            <div class="tag-list">
+              <span class="tag">React Native</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">高德 API</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb">
+            <img src="assets/Minimal_e_commerce_website_hom_2026-10-05T04-27-32.png" alt="轻履电商平台项目预览图" loading="lazy" />
+          </div>
+          <div class="project-body">
+            <h3>轻履 · 电商前端</h3>
+            <p>为潮流球鞋品牌打造的独立电商站点，重点打磨首屏加载性能与移动端购物体验，Lighthouse 性能得分 95+，支持暗色模式与无障碍浏览。</p>
+            <div class="tag-list">
+              <span class="tag">Next.js</span>
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">Stripe</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb">
+            <img src="assets/AI_chat_assistant_web_applicat_2026-10-05T04-27-36.png" alt="灵犀 AI 助手项目预览图" loading="lazy" />
+          </div>
+          <div class="project-body">
+            <h3>灵犀 · AI 对话助手</h3>
+            <p>基于大语言模型的 Web 对话助手，支持多轮上下文记忆、Markdown 渲染与流式输出，可自定义助手人设并沉淀为知识库问答。</p>
+            <div class="tag-list">
+              <span class="tag">Node.js</span>
+              <span class="tag">SSE 流式</span>
+              <span class="tag">LLM 接入</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> 李荣浩 · 用 ❤️ 与代码构建</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
